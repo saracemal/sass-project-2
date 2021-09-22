@@ -1,0 +1,51 @@
+@import './styles/main';
+
+// body {
+//     background: $body-bg;
+
+// .header {
+//     @include container(1120px, 60px, 240px, 47px);
+
+    // .nav {
+    //     list-style: none;
+        
+    //     @include container(322px, 30px, 410px, 62px);
+
+    //     &__logo {
+    //         @include logoDiv(59px);
+    
+    //         &--small {
+    //             @include logoPurpleRectangle(74px);
+    //         };
+    
+    //         &--big {
+    //             @include logoPinkRectangle(59px);
+    //         };
+    //     };
+
+    //     &__list {
+    //         list-style: none;
+
+    //         &--about {
+    //             @include navLinks(53px, 30px, 410px, 62px, 800, $darkBlue)
+    //         };
+    //         &--help {
+    //             @include navLinks(35px, 26px, 503px, 64px, 500, $gray)
+    //         };
+    //         &--features {
+    //             @include navLinks(63px, 26px, 578px, 64px, 500, $gray)
+    //         };
+    //         &--signup {
+    //             @include navLinks(51px, 26px, 681px, 64px, 500, $gray)
+    //         };
+    //     };
+
+    //     &__demoBtn {
+    //         @include demoBtn(1150px, 47px);
+    //         @include demoBtnText(1179px, 64px, 800);
+    //         @include vector74(20px, 1311px, 77px, $iconPurple);
+    //         @include polygon1(1331px, 70px, $iconPurple, 90deg);
+    //     };
+    // };
+// };
+// };

@@ -10,3 +10,31 @@ $teal: #68C9BA; /* TEAL FOR FEATURE RECTANGLE */
 $blue: #2D9CDB; /* BLUE FOR FEATURE RECTANGLE */
 $white: #FFFFFF; /* BACKGROUNDS AND TEXT */
 
+/* BORDERS AND RADIUS */
+
+$btnBorderRadius: 50px; /* BORDER RADIUS FOR BUTTONS */
+$logoBorderRadius: 20px; /* BORDER RADIUS FOR LOGOS */
+$rectBorderRadius: 50px; /* CONTAINER BORDER RADIUS */
+
+/* FONTS */
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+  }
+
+$primaryFont: 'Avenir', Helvetica, sans-serif; /* PRIMARY PAGE FONT */
+$headerFont: Helvetica, Sans-Serif; /* HEADER FONT */
+
+/* ----- GLOBAL MIXINS ----- */
+
+/* GLOBAL CONTAINER MIXIN */
+@mixin container($width, $height, $left, $top) {
+    position: absolute;
+    width: $width;
+    height: $height;
+    left: $left;
+    top: $top;
+};
+
+

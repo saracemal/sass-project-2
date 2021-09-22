@@ -1,0 +1,74 @@
+@import './base';
+
+
+/* --- BUTTONS --- */
+
+/* LEARN MORE BUTTON */
+@mixin learnBtn($left, $top, $background) {
+
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: $left;
+    top: $top;
+    background: $background;
+    border-radius: $btnBorderRadius;
+};
+
+/* REQUEST DEMO BUTTON */
+@mixin demoBtn($left, $top) {
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    left: $left;
+    top: $top;
+    background: $white;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: $btnBorderRadius;
+};
+
+/* --- LOGO ---*/
+/* LOGO DIV AND ELEMENTS */
+@mixin logoDiv($top) {
+    position: absolute;
+    width: 49px;
+    height: 35px;
+    left: 240px;
+    top: $top;
+};
+
+@mixin logoPurpleRectangle($top) {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 240px;
+    top: $top;
+    background: $purple;
+    border-radius: $logoBorderRadius;
+};
+
+@mixin logoPinkRectangle($top){
+    position: absolute;
+    width: 20px;
+    height: 35px;
+    left: 269px;
+    top: $top;
+    background: $pink;
+    border-radius: $logoBorderRadius;
+};
+
+@mixin navLinks($width, $height, $left, $top, $font-weight, $color) {
+    position: absolute;
+    width: $width;
+    height: $height;
+    left: $left;
+    top: 62px;
+    font-family: $primaryFont;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: 16px;
+    line-height: 160%;
+    color: $color;
+};
+
+

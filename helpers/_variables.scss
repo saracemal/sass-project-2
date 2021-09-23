@@ -1,0 +1,29 @@
+/* --- COLORS --- */
+$body-bg: #E5E5E5; /* DOCUMENT BACKGROUND COLOR */
+$purple: #9C69E2; /* PURPLE FOR BUTTONS AND RECTANGLE ON HEADER */
+$pink: #F063B8; /* PINK FOR BUTTONS AND RECTANGLE ON HEADER */
+$gray: #485D68; /* FONT COLOR FOR NAV LINKS AND HEADLINE INFO*/
+$darkBlue: #212353; /* DARKER BLUE */
+$teal: #68C9BA; /* TEAL FOR FEATURE RECTANGLE */
+$blue: #2D9CDB; /* BLUE FOR FEATURE RECTANGLE */
+$white: #FFFFFF; /* BACKGROUNDS AND TEXT */
+
+
+/* --- BORDERS --- */
+$btnBorderRadius: 50px; /* BORDER RADIUS FOR BUTTONS */
+$logoBorderRadius: 20px; /* BORDER RADIUS FOR LOGOS */
+$rectBorderRadius: 50px; /* CONTAINER BORDER RADIUS */
+
+
+/* --- FONT-SIZE --- */
+
+
+
+/* --- FONT --- */
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+  }
+
+$primaryFont: 'Avenir', Helvetica, sans-serif; /* PRIMARY PAGE FONT */
+$headerFont: Helvetica, Sans-Serif; /* HEADER FONT */
